@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".countryinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"></Space>
+        <TextView
+            android:id="@+id/CC"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Capital City:"
+            android:textSize="25dp"
+            android:gravity="center|left"
+            android:layout_weight="80"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"></Space>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"></Space>
+        <TextView
+            android:id="@+id/pop"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Population:"
+            android:gravity="center|left"
+            android:textSize="25dp"
+            android:layout_weight="80"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"></Space>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"></Space>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="40">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"></Space>
+        <ListView
+            android:id="@+id/lv2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"></ListView>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"></Space>
+
+
+    </LinearLayout>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"/>
+        <Button
+            android:onClick="back"
+            android:text="BACK"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"></Space>
+
+</LinearLayout>
